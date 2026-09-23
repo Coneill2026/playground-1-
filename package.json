@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "lint": "eslint . --ext .js --ignore-pattern node_modules --no-config-lookup --no-error-on-unmatched-pattern"
+  },
   "devDependencies": {
     "eslint": "^10.11.0",
     "eslint-plugin-astro": "^3.2.1"
